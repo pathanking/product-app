@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.srkr.products.entity.Product;
 import com.srkr.products.service.ProductService;
 
+/**
+ * 
+ * @author razaa
+ *
+ */
+
 @RestController
 @RequestMapping("/products/api/")
 public class ProductController {
